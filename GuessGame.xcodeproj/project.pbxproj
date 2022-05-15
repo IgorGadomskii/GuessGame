@@ -11,6 +11,10 @@
 		FA44227F282DB6D300319BCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA44227E282DB6D300319BCB /* ContentView.swift */; };
 		FA442281282DB6D700319BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA442280282DB6D700319BCB /* Assets.xcassets */; };
 		FA442284282DB6D700319BCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA442283282DB6D700319BCB /* Preview Assets.xcassets */; };
+		FA44228B282DBAD300319BCB /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA44228A282DBAD300319BCB /* SliderView.swift */; };
+		FA44228D282DBC0600319BCB /* SliderStorybord.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA44228C282DBC0600319BCB /* SliderStorybord.xib */; };
+		FA44228F2830DB3500319BCB /* CheckButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA44228E2830DB3500319BCB /* CheckButton.swift */; };
+		FA4422912830EA1D00319BCB /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4422902830EA1D00319BCB /* RefreshButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		FA44227E282DB6D300319BCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA442280282DB6D700319BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA442283282DB6D700319BCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA44228A282DBAD300319BCB /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		FA44228C282DBC0600319BCB /* SliderStorybord.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderStorybord.xib; sourceTree = "<group>"; };
+		FA44228E2830DB3500319BCB /* CheckButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckButton.swift; sourceTree = "<group>"; };
+		FA4422902830EA1D00319BCB /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				FA44227C282DB6D300319BCB /* GuessGameApp.swift */,
 				FA44227E282DB6D300319BCB /* ContentView.swift */,
+				FA44228E2830DB3500319BCB /* CheckButton.swift */,
+				FA4422902830EA1D00319BCB /* RefreshButton.swift */,
+				FA44228A282DBAD300319BCB /* SliderView.swift */,
+				FA44228C282DBC0600319BCB /* SliderStorybord.xib */,
 				FA442280282DB6D700319BCB /* Assets.xcassets */,
 				FA442282282DB6D700319BCB /* Preview Content */,
 			);
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA44228D282DBC0600319BCB /* SliderStorybord.xib in Resources */,
 				FA442284282DB6D700319BCB /* Preview Assets.xcassets in Resources */,
 				FA442281282DB6D700319BCB /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA44228B282DBAD300319BCB /* SliderView.swift in Sources */,
 				FA44227F282DB6D300319BCB /* ContentView.swift in Sources */,
+				FA4422912830EA1D00319BCB /* RefreshButton.swift in Sources */,
+				FA44228F2830DB3500319BCB /* CheckButton.swift in Sources */,
 				FA44227D282DB6D300319BCB /* GuessGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
